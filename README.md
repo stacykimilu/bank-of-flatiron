@@ -1,9 +1,37 @@
-# React + Vite
+## WEEK 1: PHASE-2 Code Challenge
+## The Royal Bank of Flatiron
+2024/04/28
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Authors
+- Stacy Kimilu
 
-Currently, two official plugins are available:
+## Description
+This is a basic web application built in React that keeps track of transactions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# bank-of-flatiron
+## Project Setup Instructions
+To get started with this project, follow these steps:
+
+1. Clone this repository to your local machine.
+2. Navigate to the project directory.
+3. Install dependencies using `npm install`.
+4. Start the development server using `npm run dev`.
+Once the development server is running, you can access the web app in your web browser .
+
+## Live Site 
+https://github.com/stacykimilu/bank-of-flatiron
+
+## Technologies Used
+
+- **React:** A JavaScript library for building user interfaces.
+- **Vite:** A fast build tool that focuses on speed and simplicity.
+- **JSON Server:** A full fake REST API server for development, providing a quick way to set up a mock backend with a JSON-based database.
+- **CSS:** Used for structuring and styling the web application.
+
+## Support and Contact Details
+If you have any inquiries or suggestions, feel free to reach out:
+https://github.com/stacykimilu/bank-of-flatiron
+
+## License
+The content of this site is licensed under the MIT license.
+
+© 2024 Stacy Kimilu
