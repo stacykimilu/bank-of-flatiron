@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
-
-function TransactionsSearch({ changeTransactions }) {
+function TransactionsSearch({ filterTransactions }) {
   const [searchTerm, setSearchTerm] = useState('');
 
   const handleSearchChange = (e) => {
@@ -9,7 +8,7 @@ function TransactionsSearch({ changeTransactions }) {
   };
 
   const handleSearch = () => {
-    changeTransactions(searchTerm);
+    filterTransactions(searchTerm);
   };
 
   return (
@@ -17,7 +16,7 @@ function TransactionsSearch({ changeTransactions }) {
       <input
         type="text"
         value={searchTerm}
-        onChange={handleSearch}
+        onChange={handleSearchChange}
         placeholder="Search transactions"
       />
       <button className="search-button" onClick={handleSearch}>

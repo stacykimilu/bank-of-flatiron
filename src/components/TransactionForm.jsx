@@ -9,7 +9,7 @@ function TransactionForm({ onAddTransaction }) {
     date: ''
   };
 
-  // manage form fields
+  // Handle form fields
   const [transaction, setTransaction] = useState(initialState);
 
   // Function to handle changes in form fields
